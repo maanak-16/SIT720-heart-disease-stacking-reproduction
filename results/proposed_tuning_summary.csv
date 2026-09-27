@@ -1,0 +1,5 @@
+Model,Best_CV_F1,Configurations_sampled,Best_parameters
+Logistic Regression,0.880168230137798,30,"{'select__frequency_threshold': 0.5, 'select__C': 1.0, 'model__C': 1}"
+RBF-SVM,0.8866204055192611,30,"{'select__frequency_threshold': 0.6, 'select__C': 1.0, 'model__gamma': 'auto', 'model__C': 1}"
+Random Forest,0.8697363954313108,30,"{'select__frequency_threshold': 0.5, 'select__C': 1.0, 'model__n_estimators': 200, 'model__max_features': 'sqrt', 'model__max_depth': 5}"
+KNN,0.8626177979299676,30,"{'select__frequency_threshold': 0.7, 'select__C': 1.0, 'model__weights': 'uniform', 'model__n_neighbors': 9}"

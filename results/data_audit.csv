@@ -1,0 +1,11 @@
+Measure,Value
+Rows,1025
+Columns,14
+Predictors,13
+Missing cells,0
+Exact duplicate rows,723
+Unique rows,302
+Class 0,499
+Class 1,526
+ca=4 records,18
+thal=0 records,7

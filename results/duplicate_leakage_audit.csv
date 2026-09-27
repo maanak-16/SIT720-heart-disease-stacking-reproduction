@@ -1,0 +1,5 @@
+Measure,Value
+Exact duplicate rows in full data,723
+Unique rows after deduplication,302
+Test rows with identical predictor vector present in training set,202
+Duplicate predictor groups with conflicting targets,0

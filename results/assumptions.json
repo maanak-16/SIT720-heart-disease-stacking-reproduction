@@ -1,0 +1,16 @@
+{
+  "seed": 42,
+  "test_size": 0.2,
+  "paper_style_protocol": "stratified 80:20 split; 5-fold stacking; logistic-regression meta learner; paper's 13 predictors",
+  "proposed_protocol": "exact deduplication before split; ca=4 and thal=0 treated as missing; categorical one-hot encoding; stability-oriented L1 selection; tuned heterogeneous soft voting; repeated 10-seed holdouts",
+  "metrics": [
+    "Accuracy",
+    "Precision",
+    "Recall",
+    "F1",
+    "AUC",
+    "Specificity",
+    "MCC"
+  ],
+  "paper_hyperparameter_note": "The publication does not provide a complete set of numerical hyperparameters; explicit assumptions are recorded in the notebook."
+}
