@@ -3,14 +3,12 @@
 **An efficient stacking-based ensemble technique for early heart attack prediction**
 
 ## Package contents
-- `SIT720_11.1_HD_Option3_FINAL_HD.ipynb` — clean notebook.
-- `SIT720_11.1_HD_Option3_FINAL_HD_EXECUTED.ipynb` — executed notebook with all outputs.
-- `SIT720_11.1_HD_Option3_FINAL_HD_REPORT.docx` — editable research report.
-- `SIT720_11.1_HD_Option3_FINAL_HD_REPORT.pdf` — PDF research report.
+- `SIT720_heart_disease_stacking_study.ipynb` — notebook with all outputs (Part 1 reproduction and Part 2 LASSE).
+- `SIT720_report.pdf` — technical research report.
 - `heart.csv` — dataset used for the experiments.
-- `requirements.txt` — Python package versions used for the reproducible environment.
+- `requirements.txt` — pinned Python package versions.
 - `results/` — result tables and statistical outputs.
-- `figures/` — final figures.
+- `figures/` — ROC curves and confusion matrices.
 
 ## Reproduction
 1. Use Python **3.13.5**.
@@ -22,7 +20,7 @@ pip install -r requirements.txt
 ```
 
 4. Place `heart.csv` in the same folder as the notebook.
-5. Open `SIT720_11.1_HD_Option3_FINAL_HD.ipynb` and run it from top to bottom.
+5. Open `SIT720_heart_disease_stacking_study.ipynb` and run it from top to bottom.
 6. Runtime depends on the computer because the repeated tuning and model comparisons require more computation than the single holdout experiment.
 
 The reproducibility environment is Python 3.13.5 with the package versions pinned in `requirements.txt`.
@@ -32,9 +30,9 @@ The selected paper identifies the Public Health Dataset at:
 https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset?datasetId=216167&sortBy=voteCount
 
 ## Presentation and code archive
-Video presentation: **[Add final video link here]**
+Video presentation: https://deakin.au.panopto.com/Panopto/Pages/Viewer.aspx?id=de5213a8-9c89-4fd4-bd4a-b4d300770601
 
-Code/data archive: **[Add final GitHub, OneDrive or Dropbox link here]**
+Code repository: https://github.com/maanak-16/SIT720-heart-disease-stacking-reproduction
 
 ## Main findings
 The supplied file contains 1,025 rows but only 302 unique rows. Under the seed-42 paper-style split, 202 test observations have identical predictor vectors in training. Paper-style stacking reaches 1.0000 accuracy on that split.
