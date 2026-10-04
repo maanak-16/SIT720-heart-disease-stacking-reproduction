@@ -30,7 +30,7 @@ The selected paper identifies the Public Health Dataset at:
 https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset?datasetId=216167&sortBy=voteCount
 
 ## Presentation and code archive
-Video presentation: https://deakin.au.panopto.com/Panopto/Pages/Viewer.aspx?id=de5213a8-9c89-4fd4-bd4a-b4d300770601
+Video presentation: https://deakin.au.panopto.com/Panopto/Pages/Viewer.aspx?id=807caaf0-aed4-4723-b045-b4d9008779be
 
 Code repository: https://github.com/maanak-16/SIT720-heart-disease-stacking-reproduction
 
